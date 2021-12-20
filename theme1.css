@@ -1,0 +1,45 @@
+/* Theme */
+main {
+	background: #2c8571;
+	color: #FAFAFA;
+	animation: changebaby 8s infinite;
+}
+@keyframes changebaby{	
+	0%{background-color: #45800f;
+		}
+	10%{background-color: #113b96;
+		}
+	20%{background-color: #64061d;
+		}
+	30%{background-color: #80551e;
+		}
+	40%{background-color: #000801;
+		}
+	50%{background-color: #0d3107;
+		}
+	60%{background-color: #353e8f;
+		}
+	70%{background-color: #750c4d;
+		}	
+	80%{background-color: #4b6b25;
+		}
+	90%{background-color: #3d417a;
+		}
+	1000%{background-color: #0d3107;
+		}
+}
+.icons-social a {
+	color: #FAFAFA;
+}
+
+.icons-social a:hover {	
+	color: #19bcd1
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
+}
+
+.icons-social a svg path:hover {	
+	fill: #174727
+} 
